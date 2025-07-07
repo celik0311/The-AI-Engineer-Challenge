@@ -1,0 +1,29 @@
+{
+  "name": "ai-engineer-challenge",
+  "version": "1.0.0",
+  "description": "AI Engineer Challenge - Full Stack LLM Application",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd api && python app.py",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm run start",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd api && pip install -r requirements.txt",
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "lint": "cd frontend && npm run lint"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "nextjs",
+    "fastapi",
+    "openai",
+    "chat"
+  ],
+  "author": "AI Engineer Challenge",
+  "license": "MIT",
+  "workspaces": [
+    "frontend"
+  ]
+} 
